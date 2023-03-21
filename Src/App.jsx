@@ -4,12 +4,12 @@ import Header from "./Components/Header"
 import MovieApi from "./Components/MovieApi"
 
 
+
 const App = () => {
   return (
     <div>
     <Header />
-    <Form />
-    
+    <MovieApi />
    <Footer /> 
     </div>
   )

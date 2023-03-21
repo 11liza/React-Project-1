@@ -1,6 +1,6 @@
 import React from 'react'
-import Form from './Form'
-import MovieList from './MovieList'
+import Form from './Form';
+import MovieList from './MovieList';
 
 const MovieApi = () => {
   const [movies, setMovies] = React.useState([]);
@@ -21,8 +21,8 @@ const MovieApi = () => {
 
   return (
     <div>
-     <MovieList />
-     <Form />
+      <MovieList />
+      <Form />
       
     </div>
   )
